@@ -1,3 +1,7 @@
-# Programação computacional e biomecânica
+## Programação computacional e biomecânica
+___________
 
-Aulas e códigos desenvolvidos para os encontros de introdução a programação computacional
+### Objetivo principal: 
+Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de programação, como MATLAB e Python, permitindo maior autonomia e experiência na manipulação e interpretação na análise de dados em biomecânica.
+
+<i> (Em construção)... </i>
