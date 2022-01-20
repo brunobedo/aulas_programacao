@@ -1,6 +1,6 @@
-## Programação computacional e biomecânica
-___________
-<h2>More about me 👨🏽‍🏫</h2>
+<h2>Programação computacional e biomecânica 💻👨🏽‍💻</h2>
+
+<h2>Professor 👨🏽‍🏫</h2>
 * Bacharel em Educação Física e Esporte - Universidade de São Paulo<br>
 * Mestre em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
 * Doutor em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
@@ -19,7 +19,7 @@ Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de
 
 <h2>Quais os estímulos buscados 💭</h2>
 1. Raciocínio lógico<br>
-2. Detecçãodos problemas<br>
+2. Detecção dos problemas<br>
 3. Elaboração das ferramentas de resolução<br>
 4. Resolução de problemas<br>
 5. Apresentação de resultados<br>
