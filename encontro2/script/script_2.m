@@ -1,4 +1,5 @@
 % Encontro 2 
+% Professor: Bruno Bedo
 % Objetivo da aula: Criar um script
 % Objetivo do meu script:
 %     1. Carregar o meu banco de dados 
@@ -15,7 +16,6 @@ load('databaseimc.mat');
 
 
 % Calculando o IMC
-
 for i = 1:size(databaseimc,1)
     
     % Nome
