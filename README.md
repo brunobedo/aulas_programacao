@@ -1,12 +1,5 @@
 <h2>Programação computacional e biomecânica 💻👨🏽‍💻</h2>
 
-<h2>Professor 👨🏽‍🏫</h2>
-* Bacharel em Educação Física e Esporte - Universidade de São Paulo<br>
-* Mestre em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
-* Doutor em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
-* Pesquisador Visitante na Universidade de Ottawa (Canadá) (PDSE-CAPES)<br>
-* Cientista de Dados do Projeto Gato Mestre - Fantasy Game Cartola FC | Grupo Globo<br>
-
 <h2>Objetivo geral das aulas 🎯</h2>
 Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de programação, como MATLAB e Python, permitindo maior autonomia e experiência na manipulação e interpretação na análise de dados em biomecânica.
 
@@ -16,6 +9,12 @@ Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de
 - <i> “Ter conhecimento e habilidades para manipular com maior seguranças as ferramentas de programação em biomecânica” </i><br>
 - <i> Desenvolver rotinas, programar diferentes raciocínios, dominar as ferramentas“ </i><br>
 
+<h2>Professor 👨🏽‍🏫</h2>
+* Bacharel em Educação Física e Esporte - Universidade de São Paulo<br>
+* Mestre em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
+* Doutor em Ciência pela Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo<br>
+* Pesquisador Visitante na Universidade de Ottawa (Canadá) (PDSE-CAPES)<br>
+* Cientista de Dados do Projeto Gato Mestre - Fantasy Game Cartola FC | Grupo Globo<br>
 
 <h2>Quais os estímulos buscados 💭</h2>
 1. Raciocínio lógico<br>
@@ -32,7 +31,7 @@ Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de
 <br>
 </p>
 
-<h2>Contact me! 💬</h2>
+<h2>Contato 💬</h2>
 <a href="mailto:brunosebdo@gmail.com"  >
     <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
@@ -43,7 +42,7 @@ Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de
     <img alt="Lattes" src="https://img.shields.io/badge/Lattes-0000FF?style=for-the-badge&logo=Lattes&logoColor=white"/>
 </a> 
 <br>
-<h2>I am also on: 🔗 </h2>
+<h2>Redes sociais 🔗 </h2>
 <p align="left">
 <a href="https://twitter.com/brunobedo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="brunobedo" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/bruno-bedo-6bb463181/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ramikrispin" height="30" width="40" /></a>
