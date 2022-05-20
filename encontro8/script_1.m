@@ -53,14 +53,15 @@ for subj = 1:size(sbj,2)
     data.left.hip.y(:,subj) = dataNorm(:,15);
     data.left.hip.z(:,subj) = dataNorm(:,16);
     
-    data.left.hip.x(:,subj) = dataNorm(:,17); 
-    data.left.hip.y(:,subj) = dataNorm(:,18);
-    data.left.hip.z(:,subj) = dataNorm(:,19);    
+    data.right.hip.x(:,subj) = dataNorm(:,17); 
+    data.right.hip.y(:,subj) = dataNorm(:,18);
+    data.right.hip.z(:,subj) = dataNorm(:,19);    
     
 end
 
 % Left Side
-f1 = figure(1); set(f1, 'units','normalized','outerposition',[0 0 1 1]); 
+f1 = figure(1); 
+set(f1, 'units','normalized','outerposition',[0 0 1 1]); 
 f1sb1 = subplot(3,3,1);  plot(data.left.ankle.x); title('Left Ankle'); ylabel('Angle (º) - Sagittal')
 f1sb2 = subplot(3,3,2);  plot(data.left.knee.x); title('Left Knee')
 f1sb3 = subplot(3,3,3);  plot(data.left.hip.x); title('Left Hip'); legend('Trial 1', 'Trial 2', 'Trial 3')
@@ -75,10 +76,13 @@ f1sb9 = subplot(3,3,9);  plot(data.left.hip.z); xlabel('Cycle (0-100%)')
 
 
 % Right side
-f2 = figure(2); set(f2, 'units','normalized','outerposition',[0 0 1 1]); 
+f2 = figure(2); 
+set(f2, 'units','normalized','outerposition',[0 0 1 1]); 
+
 f2sb1 = subplot(3,3,1);  plot(data.right.ankle.x); title('Right Ankle'); ylabel('Angle (º) - Sagittal')
 f2sb2 = subplot(3,3,2);  plot(data.right.knee.x); title('Right Knee')
 f2sb3 = subplot(3,3,3);  plot(data.right.hip.x); title('Right Hip'); legend('Trial 1', 'Trial 2', 'Trial 3')
+
 f2sb4 = subplot(3,3,4);  plot(data.right.ankle.y); ylabel('Angle (º) - Frontal')
 f2sb5 = subplot(3,3,5);  plot(data.right.knee.y)
 f2sb6 = subplot(3,3,6);  plot(data.right.hip.y)
