@@ -44,18 +44,18 @@ for subj = 1:size(sbj,2)
     data.left.knee.y(:,subj) = dataNorm(:,9);
     data.left.knee.z(:,subj) = dataNorm(:,10);
     
-    data.rightknee.x(:,subj) = dataNorm(:,11); 
-    data.rightknee.y(:,subj) = dataNorm(:,12);
-    data.rightknee.z(:,subj) = dataNorm(:,13);    
+    data.right.knee.x(:,subj) = dataNorm(:,11); 
+    data.right.knee.y(:,subj) = dataNorm(:,12);
+    data.right.knee.z(:,subj) = dataNorm(:,13);    
     
 %   Hip
     data.left.hip.x(:,subj) = dataNorm(:,14); 
     data.left.hip.y(:,subj) = dataNorm(:,15);
     data.left.hip.z(:,subj) = dataNorm(:,16);
     
-    data.right.hip.x(:,subj) = dataNorm(:,17); 
-    data.right.hip.y(:,subj) = dataNorm(:,18);
-    data.right.hip.z(:,subj) = dataNorm(:,19);    
+    data.left.hip.x(:,subj) = dataNorm(:,17); 
+    data.left.hip.y(:,subj) = dataNorm(:,18);
+    data.left.hip.z(:,subj) = dataNorm(:,19);    
     
 end
 
@@ -76,16 +76,16 @@ f1sb9 = subplot(3,3,9);  plot(data.left.hip.z); xlabel('Cycle (0-100%)')
 
 % Right side
 f2 = figure(2); set(f2, 'units','normalized','outerposition',[0 0 1 1]); 
-f2sb1 = subplot(3,3,1);  plot(data.left.ankle.x); title('Right Ankle'); ylabel('Angle (º) - Sagittal')
-f2sb2 = subplot(3,3,2);  plot(data.left.knee.x); title('Right Knee')
-f2sb3 = subplot(3,3,3);  plot(data.left.hip.x); title('Right Hip'); legend('Trial 1', 'Trial 2', 'Trial 3')
-f2sb4 = subplot(3,3,4);  plot(data.left.ankle.y); ylabel('Angle (º) - Frontal')
-f2sb5 = subplot(3,3,5);  plot(data.left.knee.y)
-f2sb6 = subplot(3,3,6);  plot(data.left.hip.y)
+f2sb1 = subplot(3,3,1);  plot(data.right.ankle.x); title('Right Ankle'); ylabel('Angle (º) - Sagittal')
+f2sb2 = subplot(3,3,2);  plot(data.right.knee.x); title('Right Knee')
+f2sb3 = subplot(3,3,3);  plot(data.right.hip.x); title('Right Hip'); legend('Trial 1', 'Trial 2', 'Trial 3')
+f2sb4 = subplot(3,3,4);  plot(data.right.ankle.y); ylabel('Angle (º) - Frontal')
+f2sb5 = subplot(3,3,5);  plot(data.right.knee.y)
+f2sb6 = subplot(3,3,6);  plot(data.right.hip.y)
 
-f2sb7 = subplot(3,3,7);  plot(data.left.ankle.z); xlabel('Cycle (0-100%)'); ylabel('Angle (º) - Transversal')
-f2sb8 = subplot(3,3,8);  plot(data.left.knee.z); xlabel('Cycle (0-100%)')
-f2sb9 = subplot(3,3,9);  plot(data.left.hip.z); xlabel('Cycle (0-100%)')
+f2sb7 = subplot(3,3,7);  plot(data.right.ankle.z); xlabel('Cycle (0-100%)'); ylabel('Angle (º) - Transversal')
+f2sb8 = subplot(3,3,8);  plot(data.right.knee.z); xlabel('Cycle (0-100%)')
+f2sb9 = subplot(3,3,9);  plot(data.right.hip.z); xlabel('Cycle (0-100%)')
 
 
 saveas( f1 , 'results/LeftAngleResults.jpg' )
