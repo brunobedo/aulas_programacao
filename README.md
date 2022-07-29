@@ -30,7 +30,6 @@ Desenvolver o raciocínio lógico, potencilizando o aprendizado em linguagens de
     <img alt="Octave" src="https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683"/>
 <br>
 </p>
-
 <h2>Contato 💬</h2>
 <a href="mailto:brunosebdo@gmail.com"  >
     <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
