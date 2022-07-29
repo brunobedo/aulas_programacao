@@ -65,9 +65,14 @@ switch answerjoint
     case 'None'
         disp('Nenhuma articulação foi selecionada')
 end
-
 % Resultado final
 disp(dado_interesse)
+
+f1 = msgbox({'Todos os dados foram processados com sucesso!',...
+             'Os seus resultados estão no arquivo "data"'});
+
+
+
 
         
         
