@@ -24,9 +24,9 @@ box = inputdlg({'Nome','Idade', 'MMII Dominante', 'Histórico de lesão'},'Título 
 % Carregar os arquivos 
 for subj = 1:size(indx,2)
     select =indx(subj); 
-    
-    file_name = fn(select+2);
-    
+
+%   Selecionando dados
+    file_name = fn(select+2);  
     full_file = ['data/',char(file_name)];
     
 %   Raw data
