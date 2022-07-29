@@ -17,6 +17,8 @@ if ~exist('results', 'dir')
        mkdir('results')
 end
 
+
+
 for subj = 1:size(sbj,2)
 %   File name
     file = ['data/trial_0',num2str(subj),'.xls'];
@@ -96,7 +98,6 @@ saveas( f1 , 'results/LeftAngleResults.jpg' )
 saveas( f2 , 'results/RightAngleResults.jpg' )
 
 close all
-clear all 
 clc
 
 disp('All figures have been saved')
